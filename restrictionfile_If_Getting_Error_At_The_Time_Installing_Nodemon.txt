@@ -1,0 +1,6 @@
+(1)Set-ExecutionPolicy RemoteSigned (if error comes the tey below command)
+(i)Set-ExecutionPolicy -Scope CurrentUser
+(ii)RemoteSigned
+
+For default setting;
+Set-ExecutionPolicy Restricted

@@ -1,0 +1,78 @@
+{
+	"id": "dc27d5d0-ec24-70f2-d277-aeff0f613c9c",
+	"name": "Whatsapp-API",
+	"description": "",
+	"order": [
+		"669bb49e-a1e4-de24-0047-b8faa27bb0bf",
+		"6e2b2594-fb5a-e47d-13d3-88e4bec0e1e1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1621078331283,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "669bb49e-a1e4-de24-0047-b8faa27bb0bf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9000/messages/new",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "dc27d5d0-ec24-70f2-d277-aeff0f613c9c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Transfer of New data (frontend,backend)",
+			"description": "Transfer of New data (frontend,backend)",
+			"descriptionFormat": "html",
+			"time": 1621078441332,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"message\":\"Welcome VR\",\n\t\"name\":\"DF\",\n\t\"timestamp\":\"From ss\",\n\t\"received\":true\n}"
+		},
+		{
+			"id": "6e2b2594-fb5a-e47d-13d3-88e4bec0e1e1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9000/messages/sync",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "dc27d5d0-ec24-70f2-d277-aeff0f613c9c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Transfer of Syncdata (frontend,backend)",
+			"description": "Transfer of Sync data (frontend,backend)",
+			"descriptionFormat": "html",
+			"time": 1621078483411,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"message\":\"Welcome VR\",\n\t\"name\":\"DF\",\n\t\"timestamp\":\"From ss\",\n\t\"received\":true\n}"
+		}
+	]
+}

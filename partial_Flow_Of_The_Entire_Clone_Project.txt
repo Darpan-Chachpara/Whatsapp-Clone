@@ -1,0 +1,71 @@
+
+
+*
+Using;
+
+(1)Node.js             - FrontEnd
+(2)React.js            - FrontEnd
+(3)Express.js          - FrontEnd
+(4)FireBase            - For Authentication/Hosting
+(5)MongoDB             - BackEnd
+(6)Postman             - Api Testing (Flow of Data from FrontEnd --to-- BackEnd)
+(7)Pusher              - BackEnd(Real Time Functionality of Data coming from FrontEnd)
+*
+
+
+*
+IMPORTANT NOTE:
+(i)To start react server in terminal goto folder and type -> npm start
+(i)To start database server in terminal goto folder and type -> nodemon server.js
+*
+
+
+*
+Flow for FrontEnd;
+
+--install Node.js
+--install VS code
+--in vs code install extension(1- vs code for node.js 'Developer Pack', 2- npm, 3- Node.js'Extension Pack' )
+--in vs code terminal; 
+                    --npm init (Enter...Enter...Enter..)
+                    --npm create-react-app whatsapp-mern
+--Deploy your app on frontend using FireBase
+--Set up FireBase
+--go to the folder and;
+                    --npm start(To Start your Application on WebBrowser ('localhost:3000' , default))
+--in FireBase -> SDk ->Config (copy the code)
+
+**
+(NPM is a tool that use to install package   --> install Globally)
+(NPX is a tool that use to execute package   --> not install Globally)
+**
+
+for icons;
+        --npm install @material-ui/core
+        --npm install @material-ui/icons
+*
+
+
+*
+Flow for BackEndEnd;
+
+--git init
+--npm init;
+        --entrypoint: server.js
+        --add in package json
+--npm i express mongoose
+--gitignore
+--npm i
+--MongoDb signup and follow several steps
+--npm i -g nodemon
+                (if getting error then refer to 'Restrictionfile.txt' in folder of whatsapp-mern)
+--PostMan(For Api testing   -> front and backend data transmission   ..using(GET and POST))
+--nodemon --inspect server.js (Not used just food for taught)
+--For real time flow of data use PUSHER (create account)
+--npm i pusher        - For BackEnd
+--npm i cors          - res,req
+--npm i pusher.js     - For FrontEnd
+npm i axios           - Fetching Data
+
+
+every data comes in form of object so we convert it into new and current form before using

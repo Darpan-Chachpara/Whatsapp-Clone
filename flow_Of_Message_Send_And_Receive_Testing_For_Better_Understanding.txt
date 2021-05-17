@@ -1,0 +1,29 @@
+                <p className="chat__message">
+                    <span className="chat__name">Darpan</span>
+                    I will Bang You
+                    {/* for current time */}
+                    <span className="chat__timestamp">{new Date().toUTCString()}
+                    </span>
+                </p>
+                {/* chat coming next to next. If only chat__message is written then output will be same of message */}
+                <p className="chat__message chat__reciever">
+                    <span className="chat__name">VD</span>
+                    Try sitting over there
+                    {/* for current time */}
+                    <span className="chat__timestamp">{new Date().toUTCString()}
+                    </span>
+                </p>
+                <p className="chat__message">
+                    <span className="chat__name">DV</span>
+                    Hahahahahaha
+                    {/* for current time */}
+                    <span className="chat__timestamp">{new Date().toUTCString()}
+                    </span>
+                </p>
+                <p className="chat__message chat__reciever">
+                    <span className="chat__name">Darpan</span>
+                    Typing......
+                    {/* for current time */}
+                    <span className="chat__timestamp">{new Date().toUTCString()}
+                    </span>
+                </p>
